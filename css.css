@@ -369,6 +369,7 @@
     padding-left: 10px;
     padding-right: 10px;
     transition: 0.4s;
+    background: white;
 }
 .direct-reg-button:hover{
     background: greenyellow;
