@@ -1,0 +1,477 @@
+/* FULL BODY */
+
+
+
+
+
+
+
+
+
+
+
+/*---------     NAVBAR      --------*/
+
+
+
+
+.navbar-brand{
+    padding-left: 100px;
+}
+.navbar-nav {
+    padding-left: 400px;
+    padding-right: 50px;
+}
+.nav-item{
+    border: solid white;
+    border-width: 2px;
+    border-radius: 4px;
+    height: 36px;
+    padding-top: 4px;
+    padding-left: 7px;
+    padding-right: 7px;
+    transition: 0.4s;
+}
+.nav-link-text{
+    text-decoration: none;
+    color: black;
+}
+.nav-item:hover{
+    border-color: #e40b8d;
+    background: #e40b8d;
+    color: white;
+}
+.nav-item:hover a{
+    text-decoration: none;
+    color: white;
+}
+.sbutton{
+    color: #e40b8d;
+    border-color: #e40b8d;
+    border-width: 2px;
+    transition: 0.4s;
+    background-color: white;
+    height: 36px;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+.sbutton:hover{
+    color: white;
+    background: #e40b8d;
+}
+
+
+
+
+
+
+/*-----------  First Image Container  ------------*/
+
+
+.box{
+    width: 90%;
+    margin: auto;
+}
+
+.first-image-container{
+    width: 100%;
+    height: 640px;
+    margin: auto;
+    background-color: black;
+    background-image: url("images/pic1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+.form-contain{
+    position: relative;
+    float: right;
+    width: 320px;
+    margin-right: 40px;
+}
+.free_coupon{
+    position: absolute;
+    background: #e40b8d;
+    color: white;
+    width: 320px;
+    border: solid #e40b8d;
+    height: 50px;
+    font-weight: 600;
+    padding-top: 8px;
+    text-align: center;
+    
+    float: right;
+    margin-top: 50px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 0.4s;
+}
+.free-coupon-text{
+    color: white;
+}
+
+.free_coupon:hover{
+    border-color: #e40b8d;
+    background: white;
+}
+.free_coupon:hover a{
+    text-decoration: none;
+    color: #e40b8d;
+}
+.form1{
+    position: absolute;
+    background: #f2e4d7;
+    color: white;
+    width: 320px;
+    border: solid #f2e4d7;
+    height: 480px;
+    font-weight: 600;
+    padding-top: 38px;
+    text-align: center;
+    
+    float: right;
+    margin-top: 110px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px black;
+}
+.form1 p{
+    color: black;
+    width: 90%;
+    font-size: 11px;
+    margin-top: 10px;
+}
+.form-control{
+    width: 90%;
+    margin: auto;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+.register-button{
+    width: 60%;
+    font-size: 25px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 30px;
+    border: solid #e40b8d;
+    background: #e40b8d;
+    color: white;
+    transition: 0.4s;
+}
+.register-button:hover{
+    background: greenyellow;
+    color: black;
+    border-color: black;
+}
+
+
+
+
+
+
+
+
+
+/*---responsive form---*/
+
+
+
+
+/*-----------  COURSES WE PROVIDE  ------------*/
+
+
+.course-section-full{
+    margin-top: 30px;
+    background: #f2e4d7;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+.our-courses-text{
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    font-weight: 600;
+    font-family: Tahoma, Verdana, sans-serif;
+
+}
+.small-text{
+    font-size: 20px;
+    color: rgb(94, 93, 91);
+}
+.menu-wrapper {
+	position: relative;
+	width: 100%;
+	height: 400px;
+	margin: 1em auto;
+	overflow-x: hidden;
+    overflow-y: hidden;
+    background: #f2e4d7;
+    margin-top: 30px;
+}
+
+.menu	{
+	height: 400px;
+    background: #f2e4d7;
+	box-sizing: border-box;
+	white-space: nowrap;
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+.menu::-webkit-scrollbar {
+    display: none;
+  }
+  
+.item {
+    display: inline-block;
+    width: 400px;
+    height: 100%;
+    outline: 1px dotted gray;
+    padding: 1em;
+    box-sizing: border-box;
+    border: solid black;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+
+.html-course{
+    background: url("course-pics/html.png");
+    background-size: cover;
+    position: relative;
+}
+.detailsHTML {
+    width: 70%;
+    height: 80%;    
+    padding: 5% 8%;
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotateY(90deg);
+    transform-origin: 50%;
+    background: rgba(255,255,255,0.9);  
+    opacity: 0;
+    transition: all 0.4s ease-in;
+    word-wrap: break-word;
+    
+}
+.html-course:hover .detailsHTML {
+    width: 70%;
+    transform: translate(-50%, -50%) rotateY(0deg);
+    opacity: 1;
+    word-wrap: break-word;
+}
+.css-course:hover .detailsHTML {
+    width: 70%;
+    transform: translate(-50%, -50%) rotateY(0deg);
+    opacity: 1;
+    word-wrap: break-word;
+}
+.js-course:hover .detailsHTML {
+    width: 70%;
+    transform: translate(-50%, -50%) rotateY(0deg);
+    opacity: 1;
+    word-wrap: break-word;
+}
+.android-course:hover .detailsHTML {
+    width: 70%;
+    transform: translate(-50%, -50%) rotateY(0deg);
+    opacity: 1;
+    word-wrap: break-word;
+}
+.cpp-course:hover .detailsHTML {
+    width: 70%;
+    transform: translate(-50%, -50%) rotateY(0deg);
+    opacity: 1;
+    word-wrap: break-word;
+}
+.python-course:hover .detailsHTML {
+    width: 70%;
+    transform: translate(-50%, -50%) rotateY(0deg);
+    opacity: 1;
+    word-wrap: break-word;
+}
+
+.css-course{
+    background: url("course-pics/css.png");
+    background-size: cover;
+    position: relative;
+}
+.js-course{
+    background: url("course-pics/js.png");
+    background-size: cover;
+    position: relative;
+}
+.android-course{
+    background: url("course-pics/android.png");
+    background-size: cover;
+    position: relative;
+}
+.cpp-course{
+    background: url("course-pics/cpp.png");
+    background-size: cover;
+    position: relative;
+}
+.python-course{
+    background: url("course-pics/python.png");
+    background-size: cover;
+    position: relative;
+    margin-right: 20px;
+}
+.paddles {
+}
+.paddle {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 3em;
+}
+.left-paddle {
+    left: 0;
+    background: #e40b8d;
+    color: white;
+    height: 60px;
+    width: 60px;
+    margin-top: 160px;
+    border: solid black 2px;
+    transition: 0.4s;
+}
+.left-paddle:hover{
+    background: greenyellow;
+    color: black;
+    font-weight: 800;
+    padding-top: 0px;
+
+}
+.right-paddle {
+    right: 0;
+    background: #e40b8d;
+    color: white;
+    height: 60px;
+    width: 60px;
+    margin-top: 160px;
+    border: solid black 2px;
+    transition: 0.4s;
+}
+.right-paddle:hover{
+    background: greenyellow;
+    color: black;
+    font-weight: 800;
+    padding-top: 0px;
+
+}
+.hidden {
+	display: none;
+}
+.direct-reg-button{
+    border: solid black;
+    border-radius: 20px;
+    font-weight: 600;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: 0.4s;
+}
+.direct-reg-button:hover{
+    background: greenyellow;
+    
+}
+
+
+
+
+
+/* -------          PROJECT         -------- */
+.projects{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.project-text{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 800;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.project-detail-link a{
+    font-weight: 600;
+    transition: 0.4s;
+}
+.project-detail-link a:hover{
+    border: solid black;
+    border-radius: 20px;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+    background: yellow;
+    font-size: 20px;
+}
+.project-cards{
+    margin-bottom: 10px;
+}
+
+
+
+
+
+/*---------     FOOTER     ----------*/
+
+.foot{
+    background-color: #f2e4d7;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.footer-logo{
+    margin: auto;
+}
+.footer-logo a{
+    color: black;
+    transition: 0.4s;
+}
+.footer-logo a:hover{
+    color: black;
+    border: solid black;
+    border-radius: 20px;
+    background: #e40b8d;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+.col a{
+    color: black;
+}
+.footer-brand{
+    text-align: center;
+    margin-left: 10px;
+    font-size: 33px;
+}
+.mail-id a{
+    transition: 0.4s;
+}
+.contact-us a{
+    transition: 0.4s;
+}
+.mail-id a:hover{
+    color: black;
+    border: solid black;
+    border-radius: 20px;
+    background: #e40b8d;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.contact-us a:hover{
+    color: black;
+    border: solid black;
+    border-radius: 20px;
+    background: #e40b8d;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}

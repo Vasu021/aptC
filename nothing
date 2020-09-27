@@ -1,0 +1,29 @@
+<div class="col-4">
+                <p class="project-text">SUCCESSFUL PROJECTS <br>by our Students--></p>
+                <img src="images/project-image1.png" alt="">
+            </div>
+            <div class="col-8">
+                <div class="row">
+                    <div class="col">
+                        <div class="card border-success" style="width: 80%;margin: auto;">
+                            <img src="images/project-image2.png" class="card-img-top" alt="...">
+                            <div class="card-body project-detail-link">
+                                <p class="card-text">Amlendu Shekhar<br>Number Base Conversion Website<br></p>
+                                <a href="https://github.com/Vasu021/BaseConverter" style="color: blue;">Project Details</a><br><br>
+                                <a href="https://vasu021.github.io/BaseConverter/main.html" style="color: green;">Visit Website</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-success" style="width: 80%;margin: auto;">
+                            <img src="images/project-image3.png" class="card-img-top" alt="...">
+                            <div class="card-body project-detail-link">
+                                <p class="card-text">Abcd Efghijk<br>LmnOpq Rst uvwx YZ.<br></p>
+                                <a href="" style="color: blue;">Project Details</a><br><br>
+                                <a href="" style="color: green;">Visit Website</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
